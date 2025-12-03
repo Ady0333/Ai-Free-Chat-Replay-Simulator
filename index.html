@@ -11,10 +11,8 @@
 
 <div class="frame single">
 
-    <!-- CHAT PANEL -->
     <section class="panel">
 
-        <!-- TOP BAR -->
         <div class="topbar">
             <div class="topbar-left">
                 <div class="av" id="topAvatar"><img src=""></div>
@@ -27,8 +25,10 @@
             <div class="controls">
                 <button id="playBtn" class="btn play">Play</button>
                 <button id="pauseBtn" class="btn" disabled>Pause</button>
+                <button id="resumeBtn" class="btn" style="display:none;">Resume</button>
+                <button id="restartBtn" class="btn" style="display:none;">Restart</button>
 
-                <select id="speedSelect" class="speed">
+                <select id="speedSelect" class="speed" style="display: none;">
                     <option value="0.5">0.5x</option>
                     <option value="1" selected>1x</option>
                     <option value="1.5">1.5x</option>
@@ -38,7 +38,6 @@
             </div>
         </div>
 
-        <!-- CHAT WINDOW -->
         <div class="chat-area">
             <div class="window" id="chatWindow"></div>
 
@@ -57,7 +56,6 @@
             </div>
         </div>
 
-        <!-- FOOTER -->
         <div class="footer">
             <div class="small">JSON Powered • Smooth Replay</div>
             <div class="small" id="progressLabel"></div>
