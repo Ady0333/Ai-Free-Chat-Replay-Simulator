@@ -9,18 +9,6 @@
   --gradientBubble:linear-gradient(135deg,#eef3ff,#ffffff);
 }
 
-/* Dark theme */
-body.dark {
-  --bg:#0d1117;
-  --panel:rgba(22,27,34,0.8);
-  --accent:#7cb8ff;
-  --muted:#9aa4b2;
-  --leftBubble:#1a2330;
-  --rightBubble:#223040;
-  --shadow:0 10px 32px rgba(0,0,0,0.45);
-  --gradientBubble:linear-gradient(135deg,#161e27,#1f2a36);
-}
-
 *{box-sizing:border-box;}
 
 body {
@@ -116,15 +104,6 @@ body {
 
 .toggle-btn .sun { left: 8px; opacity: 1; transform: translateY(-50%) rotate(0deg); }
 .toggle-btn .moon { right: 8px; opacity: 0; transform: translateY(-50%) rotate(-90deg); }
-
-body.dark .toggle-btn .sun {
-  opacity: 0;
-  transform: translateY(-50%) rotate(90deg);
-}
-body.dark .toggle-btn .moon {
-  opacity: 1;
-  transform: translateY(-50%) rotate(0deg);
-}
 
 .chat-area {
   margin-top:12px;
