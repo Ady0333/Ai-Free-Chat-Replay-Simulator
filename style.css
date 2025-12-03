@@ -121,8 +121,6 @@ body {
 body.dark .sun { opacity:0; transform:rotate(90deg); }
 body.dark .moon { opacity:1; transform:rotate(0deg); }
 
-
-
 .chat-area {
   margin-top:12px;
   padding:18px;
