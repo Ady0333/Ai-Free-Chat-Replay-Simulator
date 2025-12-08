@@ -1,71 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat Replay — Modern UI</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Replay — Premium UI</title>
+    <link rel="stylesheet" href="chat_box.css" />
 </head>
+
 <body>
 
-<div class="frame single">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
 
-    <section class="panel">
+    <div class="app-container">
 
-        <div class="topbar">
-            <div class="topbar-left">
-                <div class="av" id="topAvatar"><img src=""></div>
-                <div class="title">
-                    <div class="name" id="topName">Group Chat</div>
-                    <div class="sub" id="topSub">Replay Simulation</div>
+        <div class="topbar glass">
+            <div class="user-info">
+                <img src="./images (2).jpeg" alt="Group" class="avatar-large" id="topAvatar">
+                <div class="chat-meta">
+                    <div class="chat-title" id="topName">Design Loop</div>
+                    <div class="chat-status" id="topSub">Start simulation to replay</div>
                 </div>
             </div>
 
             <div class="controls">
-                <button id="playBtn" class="btn play">Play</button>
-                <button id="pauseBtn" class="btn" style="display:none;">Pause</button>
-                <button id="resumeBtn" class="btn" style="display:none;">Resume</button>
-                <button id="restartBtn" class="btn" style="display:none;">Restart</button>
+                <button id="themeToggle" class="theme-switch" title="Toggle Theme">
+                    <span id="themeIcon">☀️</span>
+                </button>
 
-                <select id="speedSelect" class="speed" style="display: none;">
-                    <option value="2">2x</option>
-                    <option value="1.5">1.5x</option>
-                    <option value="1" selected>1x</option>
-                    <option value="0.75">0.75x</option>
+                <select id="speedSelect" class="speed-select">
                     <option value="0.5">0.5x</option>
+                    <option value="1" selected>1x</option>
+                    <option value="1.5">1.5x</option>
+                    <option value="2">2x</option>
                 </select>
 
+                <button id="startBtn" class="btn-primary">Start Chat</button>
+                <button id="pauseBtn" class="icon-btn" disabled title="Pause/Resume">
+                    ⏸
+                </button>
             </div>
         </div>
 
-        <div class="chat-area">
-            <div class="window" id="chatWindow"></div>
-
-            <div class="typing-wrapper">
-                <div id="typingBox" class="typing hidden">
-                    <div class="av-sm"><img id="typingAvatar" src=""></div>
-                    <div>
-                        <div class="who" id="typingName"></div>
-                        <div class="dots">
-                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="small" id="statusLabel">Ready</div>
-            </div>
+        <div class="chat-window glass" id="chatWindow">
         </div>
 
-        <div class="footer">
-            <div class="small">JSON Powered • Smooth Replay</div>
-            <div class="small" id="progressLabel"></div>
+        <div id="typingBox" class="typing-indicator">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <span style="margin-left:8px; font-size:0.85rem; color:var(--text-muted)" id="typingText">Typing...</span>
         </div>
 
-    </section>
+        <div class="footer-info">
+            <span id="statusLabel">Ready</span> • <span id="progressLabel">0/0</span>
+        </div>
 
-</div>
+    </div>
 
-<script src="script.js"></script>
+    <script src="chat_box.js"></script>
 </body>
+
 </html>

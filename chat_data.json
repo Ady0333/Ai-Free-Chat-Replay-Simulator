@@ -1,6 +1,5 @@
 [
     {
-        "id": "m001",
         "name": "Aditya",
         "avatar": "https://i.pravatar.cc/150?img=12",
         "text": "Hey guys! We starting the project?",
@@ -8,7 +7,6 @@
         "reaction": ""
     },
     {
-        "id": "m002",
         "name": "Atul",
         "avatar": "https://i.pravatar.cc/150?img=32",
         "text": "Yes bro, let's build it!",
@@ -16,7 +14,6 @@
         "reaction": "👍"
     },
     {
-        "id": "m003",
         "name": "Sujith",
         "avatar": "https://i.pravatar.cc/150?img=45",
         "text": "I'll handle the UI.",
@@ -24,7 +21,6 @@
         "reaction": "🔥"
     },
     {
-        "id": "m004",
         "name": "Pranshi",
         "avatar": "https://i.pravatar.cc/150?img=18",
         "text": "Should we add typing animation too?",
@@ -32,7 +28,6 @@
         "reaction": "❤️"
     },
     {
-        "id": "m005",
         "name": "Atharva",
         "avatar": "https://i.pravatar.cc/150?img=27",
         "text": "Yes! And WhatsApp reactions.",
@@ -40,7 +35,6 @@
         "reaction": "👌"
     },
     {
-        "id": "m006",
         "name": "Aditya",
         "avatar": "https://i.pravatar.cc/150?img=12",
         "text": "Did anyone push their code yet?",
@@ -48,7 +42,6 @@
         "reaction": ""
     },
     {
-        "id": "m007",
         "name": "Atul",
         "avatar": "https://i.pravatar.cc/150?img=32",
         "text": "Not yet, give me 10 mins.",
@@ -56,7 +49,6 @@
         "reaction": ""
     },
     {
-        "id": "m008",
         "name": "Sujith",
         "avatar": "https://i.pravatar.cc/150?img=45",
         "text": "I'm testing the UI transitions.",
@@ -64,7 +56,6 @@
         "reaction": ""
     },
     {
-        "id": "m009",
         "name": "Pranshi",
         "avatar": "https://i.pravatar.cc/150?img=18",
         "text": "Send the updated color palette.",
@@ -72,7 +63,6 @@
         "reaction": ""
     },
     {
-        "id": "m010",
         "name": "Atharva",
         "avatar": "https://i.pravatar.cc/150?img=27",
         "text": "Uploaded in the assets folder.",
@@ -80,7 +70,6 @@
         "reaction": ""
     },
     {
-        "id": "m011",
         "name": "Riya",
         "avatar": "https://i.pravatar.cc/150?img=5",
         "text": "Home screen layout is done.",
@@ -88,7 +77,6 @@
         "reaction": ""
     },
     {
-        "id": "m012",
         "name": "Kabir",
         "avatar": "https://i.pravatar.cc/150?img=14",
         "text": "Cool, drop the screenshot.",
@@ -96,7 +84,6 @@
         "reaction": "👍"
     },
     {
-        "id": "m013",
         "name": "Mehul",
         "avatar": "https://i.pravatar.cc/150?img=31",
         "text": "API rate limiting fixed.",
@@ -104,7 +91,6 @@
         "reaction": ""
     },
     {
-        "id": "m014",
         "name": "Sneha",
         "avatar": "https://i.pravatar.cc/150?img=29",
         "text": "Anyone checked the loading animation?",
@@ -112,7 +98,6 @@
         "reaction": ""
     },
     {
-        "id": "m015",
         "name": "Vikas",
         "avatar": "https://i.pravatar.cc/150?img=44",
         "text": "Looks smooth on my device.",
@@ -120,7 +105,6 @@
         "reaction": ""
     },
     {
-        "id": "m016",
         "name": "Tanvi",
         "avatar": "https://i.pravatar.cc/150?img=9",
         "text": "Navbar icons still misaligned.",
@@ -128,7 +112,6 @@
         "reaction": ""
     },
     {
-        "id": "m017",
         "name": "Rohan",
         "avatar": "https://i.pravatar.cc/150?img=37",
         "text": "I'll fix the flex settings.",
@@ -136,7 +119,6 @@
         "reaction": ""
     },
     {
-        "id": "m018",
         "name": "Arnav",
         "avatar": "https://i.pravatar.cc/150?img=16",
         "text": "Just committed the dark mode patch.",
@@ -144,7 +126,6 @@
         "reaction": ""
     },
     {
-        "id": "m019",
         "name": "Nisha",
         "avatar": "https://i.pravatar.cc/150?img=22",
         "text": "Dark mode looks clean!",
@@ -152,7 +133,6 @@
         "reaction": "❤️"
     },
     {
-        "id": "m020",
         "name": "Dev",
         "avatar": "https://i.pravatar.cc/150?img=48",
         "text": "I’ll start optimizing images.",
