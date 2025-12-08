@@ -32,8 +32,7 @@ This simulation is ideal for:
 | Styling | **CSS3** (shadows, gradients, transitions) |
 | Logic | **Vanilla JavaScript (Async engine)** |
 | Data | **JSON** |
-<img width="1919" height="869" alt="image" src="<img width="1917" height="867" alt="Screenshot 2025-12-08 235356" src="https://github.com/user-attachments/assets/3e9ca073-ca11-4cc9-bd3f-724ea6f730bf" />
-" />
+<img width="1917" height="867" alt="Screenshot 2025-12-08 235356" src="https://github.com/user-attachments/assets/3e9ca073-ca11-4cc9-bd3f-724ea6f730bf" />
 
 
 ---
